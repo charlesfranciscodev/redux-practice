@@ -4,6 +4,11 @@ Coding Interview Practice for React, Redux and Redux Saga
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Features
+* filter
+* autocomplete names with input text
+* see https://react-autosuggest.js.org/
+
 ## Available Scripts
 
 In the project directory, you can run:

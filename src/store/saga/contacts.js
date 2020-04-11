@@ -5,6 +5,7 @@ function* fetchContacts(action) {
    try {
       const json = yield fetch("https://jsonplaceholder.typicode.com/users")
       .then(response => response.json());
+
       yield put({type: "CONTACTS_FETCH_SUCCEEDED", contacts: json});
    } catch (e) {
       yield put({type: "CONTACTS_FETCH_FAILED", message: e.message});
